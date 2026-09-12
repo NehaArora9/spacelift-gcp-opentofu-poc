@@ -8,5 +8,5 @@ resource "google_compute_subnetwork" "poc_subnet" {
   ip_cidr_range = "10.10.0.0/24"
   region        = var.region
   network       = google_compute_network.poc_vpc.id
-  description   = "POC subnet managed via Spacelift"
+ 
 }
