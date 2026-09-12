@@ -1,4 +1,4 @@
-# Triggering Spacelift deployment test
+
 resource "google_compute_network" "poc_vpc" {
   name                    = "spacelift-poc-vpc"
   auto_create_subnetworks = false
